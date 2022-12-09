@@ -1,21 +1,37 @@
 {
-  "name": "mvp-ai",
-  "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "expo": "~47.0.8",
-    "expo-status-bar": "~1.4.2",
-    "react": "18.1.0",
-    "react-native": "0.70.5"
+    "@bundled-es-modules/axios": "^0.27.2",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.5",
+    "@mui/x-data-grid": "^5.14.0",
+    "@mui/x-date-pickers": "^5.0.0-beta.4",
+    "apexcharts": "^3.35.5",
+    "axios": "^0.27.2",
+    "crypto-js": "^4.1.1",
+    "date-fns": "^2.29.1",
+    "react": "^18.0.0",
+    "react-apexcharts": "^1.4.0",
+    "react-dom": "^18.0.0",
+    "react-hook-form": "^7.33.0",
+    "react-query": "^3.39.1",
+    "react-router-dom": "^6.3.0",
+    "react-table": "^7.8.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
-  },
-  "private": true
+    "@testing-library/jest-dom": "^5.16.4",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "vite": "^2.9.9"
+  }
 }
