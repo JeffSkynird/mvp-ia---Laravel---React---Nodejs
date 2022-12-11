@@ -1,0 +1,7 @@
+### NO FUNCIONA POR AHORA EL DOCKERFILE
+
+### PASOS PARA LEVANTAR
+
+## PASO 1: cp .env.example .env
+## PASO 2: docker build -t myapp .
+## PASO 3: docker run -p 3000:3000 myapp
