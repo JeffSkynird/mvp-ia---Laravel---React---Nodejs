@@ -1,5 +1,3 @@
-# Proyecto que nos hará millonarios 🥵💵
-
 ## Para levantar
 
 1. Copiar variables de entorno
